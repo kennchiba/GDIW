@@ -1,0 +1,218 @@
+@font-face {
+    font-family: "Aquire","nasalization";
+    src: url(./fonts/Aquire-BW0ox.woff) format('woff'),
+         url(./fonts/AquireBold-8Ma60.woff) format('woff');
+    src: url(./fonts/nasalization-rg.woff) format('woff');
+}
+
+:root {
+    --clr-primary-400: #02088C ;
+    --clr-primary-300: #3e46e7 ;
+    --clr-primary-100: #aeb1f7 ;
+
+    --clr-accent-primary: #FF1A6C;
+    --clr-accent-secondary: #370460;
+
+    --clr-neutral-400: ;
+    --clr-neutral-100: ;
+
+    --ff-heading: 'Aquire';
+    --ff-body: 'Rajdhani';
+    --ff-subheading: 'nasalization';
+}
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+  }
+  html, body {
+    height: 100%;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  body {
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    font-family: 'Rajdhani';
+  }
+
+.text-heading {
+    font-family: var(--ff-heading);
+    /* font-weight: bold; */
+}
+
+.text-subheading {
+    font-family: var(--ff-subheading);
+    /* font-weight: bold; */
+}
+
+.text-body {
+    font-family: var(--ff-body);
+}
+
+.dark-section {
+    background-color: #000000 ;
+}
+
+.logo {
+    position: relative;
+    width: 13.7rem;
+}
+
+.header-bg {
+    display: block;
+    position: relative;
+    background-image: url(/images/hero-bg.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.transparent-nav {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blue-section {
+    background-color: rgba(2, 8, 140, 1);
+    background-image: url(/images/hero-overlay-spriral.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.icon-white {
+    color: #fff;
+}
+
+.btn-accent {
+    padding: 10px 20px;
+    background-color: var(--clr-accent-primary);
+    border: unset;
+    border: 2px solid #FF1A6C;
+}
+
+.btn-accent:hover {
+    background-color: var(--clr-accent-secondary);
+    border: 2px #fff solid;
+}
+
+.btn-accent-primary {
+    padding: 10px 20px;
+    background-color: var(--clr-primary-400);
+    color: white;
+}
+
+.btn-accent-primary:hover {
+    padding: 10px 20px;
+    background-color: var(--clr-primary-300);
+    color: white;
+}
+
+.venue, .date {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 80px;
+    background-color: #fff;
+    color: #272727;
+    padding: 10px 10px 10px 80px;
+}
+
+.venue-strip-pink, .date-strip-darkpurple {
+    position: absolute;
+    padding: 5px 15px;
+    width: 100px;
+    height: auto;
+    left: 25px;
+    bottom: -45px;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+    text-align: center;
+    color: #fff;
+}
+
+.venue-strip-pink {
+    background-color: var(--clr-accent-primary);
+}
+
+.date-strip-darkpurple {
+    background-color: var(--clr-accent-secondary);
+}
+
+.venue-body {
+    line-height: 1 !important;
+}
+
+.bottom-header {
+    position: relative;
+}
+
+.social-icons {
+    display: absolute;
+    left: 100px;
+    bottom: 40px;
+}
+
+.landmarks > .img {
+    width: 350px;
+    margin-bottom: 0px;
+}
+
+.white-section {
+    background-image: url(/images/hero-overlay-spriral.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.dark-bluesection {
+    background: linear-gradient(rgba(13, 7, 34, 0.9), rgba(20, 16, 66, 0.9)) , url(/images/PE-4490-650x450.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+}
+
+.partner-logos {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    
+}
+
+.footer {
+    background-color: #000000;
+    display: flex;
+}
+
+
+
+

@@ -105,6 +105,16 @@
     background-blend-mode: overlay;
 }
 
+.blue-section2 {
+    background-color: rgba(2, 8, 140, 1);
+    background-image: url(/images/lg-hero-overlay.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+
 .icon-white {
     color: #fff;
 }
